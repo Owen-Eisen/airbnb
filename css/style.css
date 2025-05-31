@@ -1,0 +1,72 @@
+/* Styles for Fake Airbnb */
+
+/* Card styles */
+.card {
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Keeps it square */
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+}
+
+/* Modal styles */
+.modal-body {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.modal-body img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.modal-footer {
+  display: block;
+}
+
+.modal-footer p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Main container styles */
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Form styles */
+.form-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
